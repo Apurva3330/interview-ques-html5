@@ -1,0 +1,150 @@
+                                                    Interview Questions of HTML5
+
+
+Q 1) What is HTML5?
+
+Answer: HTML5 is the latest version of the HyperText Markup Language that can be referred to the WWW (World Wide Web) primary language, this markup language enhances a text file with bits of code, and this code which we can say as “markup” describes the structure of the document.
+HTML5 provides some standard features like that of CSS, HTML, JavaScript, and DOM, which in turn will reduce the requirement of external plugins. It’s more markup to replace scripting, better error handling, etc. HTML5 is device independent.
+
+Q 2) What are the New tags in Media Elements in HTML5?
+
+Answer: The new tags in Media Elements in HTML5 are enlisted below:
+<audio>: Apply for multimedia contents like sounds, audio streams or music, embed audio content without the requirement of any additional plug-in like flash player.
+<video>: Apply for video content like video streams or movie clip, embed video content etc.
+<source>: Apply for multiple media resources in media elements, such as audio, video, picture etc.
+<embed>: Apply for an external application or embedded content (a plug-in).
+<track>: Apply for text tracks in the media elements such as video or audio. This tag is used for subtitles or caption files while the video media is playing.
+
+Q3) What is the minimum number of HTML5 tags that are required to create a Web page?
+
+Answer: Minimum 3  HTML5 tags are required to create a Web page, such as (<HEAD>, <BODY>, <HTML>).
+
+Q 4) What is the importance of Drag and Drop in HTML5?
+
+Answer: Drag and Drop is the most important User Interface concept which makes it easy to grab an object and Drag it at the place you want with the help of a mouse click.
+Some common features that are mostly used by Drag and Drop operation include move, link or copy.
+We can drag an image using elements, type = <img draggable = “true”>, to make an image draggable and set the draggable image attribute to true.
+
+Q 5) What is image map in html5?
+
+Answer: Image maps are a combination of URL and images, where clicking on these images (clickable area of the image) will open different new web pages.
+Two types of image maps are available in HTML5, i.e. client side and server side:
+The client-side image map is created by using two elements <area> and <map>, where the map holds the map information and the area element takes the attributes to define each section of the map. Server-side image map created by using <usemap> attribute, the usemap attribute is the name of our map.
+
+Q 6) How do you write a copyright symbol on a web browser page?
+
+Answer: In order to write a copyright symbol, we need to type &copy; or &#169; in an HTML5 file.
+
+Q 7) Why do we use HTML5?
+
+Answer: HTML5 supports animation, drawing, audio, video, etc and it easily embeds a video on the web page. It does not require any additional software like Flash for watching videos.
+Some of the important reasons to use HTML5 are given below:
+>Legacy and cross-browser support
+>Better interactions
+>Smarter storage
+>Cleaner code
+
+Q 8) Explain the concept of web storage in HTML5.
+
+Answer: Web storage provides the facility to store the data of our web applications locally into the user’s browser. It can store up to 10 MB data. Web storage helps to increase the performance of our applications.
+There are two types of web storage that are used to store data locally in HTML5:
+>Local storage: This stores the data that will not expire or clear automatically when a user closes or reopens a browser.
+>Session Storage: This stores data for one session only(i.e, a user who is surfing the internet or website). Once the browser is closed, session data will automatically delete from the web browser.
+
+Q 9) Which video and audio formats are used for embedding on web page?
+
+Answer: Formats of video and audio that are used for embedding on the web page are given below:
+Video: MPEG4, Ogg, WebM.
+Audio: WAV, Ogg Vorbis, MP3.
+
+Q 10) List out the page structure elements of HTML5.
+
+Answer: Page structure elements of HTML5 are given below:
+<header>: Represents the header section and stores the starting information about the web page.
+<footer>: Represents the footer section (last portion) of the page.
+<nav>: Represents the navigation elements of the HTML page.
+<article>: It is a set of information.
+<section>: It is a set of instructions that is used inside the article block to define the basic structure of a page.
+<aside>: Sidebar content of the page.
+
+Q 11) Explain some of the common lists to design a web page.
+
+Answer: The common lists to design a web page include:
+Directory list
+Definition list
+Ordered list
+Menu list
+Unordered list
+Different– Different tags are used to compose each list.
+
+Q 12) What is the use of output tag in HTML5?
+
+Answer: <output> tag is used to represent the different types of output and result.
+
+Q 13) Which element provides the autocomplete feature in a textbox?
+
+Answer: In HTML5 <Datalist> element, provides the autocomplete feature in a textbox.
+
+Q 14) What is the use of <figure> tag in HTML5?
+
+Answer: The figure tag is used to add an image in the document on a web page.
+
+Q 15) What is Microdata in HTML5?
+
+Answer: Microdata is a new simple semantic syntax, that is used to add the nested groups of name and value pair of data to documents, that are commonly based on the page content. Microdata is used for new global attributes.
+
+Q 16) Explain Meta tags.
+
+Answer: Meta tags are used to provide useful information to our web pages.
+Some of the tags include:
+Title: Provides a title to the web page.
+Style: Inserts some styles and CSS details to the web page.
+Link: Defines the relationship between one page to another page and an external source.
+
+Q17) Are the HTML tags and elements the same thing?
+No. HTML elements are defined by a starting tag, may contain some content and a closing tag.For example, <h1>Heading 1</h1> is a HTML element but just <h1> is a starting tag and </h1> is a closing tag.
+
+Q18) What are tags and attributes in HTML?
+Tags are the primary component of the HTML that defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. For example, <p align=” center”>Interview questions</p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
+
+Q19) What are void elements in HTML?
+HTML elements which do not have closing tags or do not need to be closed are Void elements. For Example <br />, <img />, <hr />, etc.
+
+Q20)What is the ‘class’ attribute in HTML?
+The class attribute is used to specify the class name for an HTML element. Multiple elements in HTML can have the same class value. Also, it is mainly used to associate the styles written in the stylesheet with the HTML elements.
+
+Q21) What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Multiple elements in HTML can have the same class value, whereas a value of id attribute of one element cannot be associated with another HTML element.
+
+Q22) Define multipart form data?
+Multipart form data is one of the values of the enctype attribute. It is used to send the file data to the server-side for processing. The other valid values of the enctype attribute are text/plain and application/x-www-form-urlencoded.
+
+Q23) What are the different kinds of Doctypes available?
+The three kinds of Doctypes which are available:
+>Strict Doctype 
+>Transitional Doctype
+>Frameset Doctype
+
+Q24) How is Cell Padding different from Cell Spacing?
+Cell Spacing is the space or gap between two consecutive cells. Whereas, Cell Padding is the space or gap between the text/ content of the cell and the edge/ border of the cell. Please refer to the above figure example to find the difference.
+
+Q25) How can we club two or more rows or columns into a single row or column in an HTML table?
+HTML provides two table attributes “rowspan” and “colspan” to make a cell span to multiple rows and columns respectively.
+
+Q26)Is it possible to change an inline element into a block level element?
+Yes, it is possible using the “display” property with its value as “block”, to change the inline element into a block-level element
+
+Q27) Difference between link tag <link> and anchor tag <a>?
+The anchor tag <a> is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, link tag <link> defines a link between a document and an external resource and these are not clickable.
+
+Q28)How can we include audio or video in a webpage?
+HTML5 provides two tags: <audio> and <video> tags using which we can add the audio or video directly in the webpage.
+
+Q29)What is the difference between <figure> tag and <img> tag?
+The <figure> tag specifies the self-contained content, like diagrams, images, code snippets, etc. <figure> tag is used to semantically organize the contents of an image like image, image caption, etc., whereas the <img> tag is used to embed the picture in the HTML5 document.
+
+Q30)What are raster images and vector images?
+Raster Images - The raster image is defined by the arrangement of pixels in a grid with exactly what color the pixel should be. Few raster file formats include PNG(.png), JPEG(.jpg), etc.
+Vector Images - The vector image is defined using algorithms with shape and path definitions that can be used to render the image on-screen written in a similar markup fashion. The file extension is .svg
+
+
